@@ -3,32 +3,31 @@ import java.util.Scanner;
 
 public class register {
 
-    public static void main(String Hesap_bilgileri[]) {
+    public static void main(String Register[]) {
         Scanner scn = new Scanner(System.in);
-        String kişi_adi,parola;
-        System.out.print("Kullanıcı Adınız");
-        kişi_adi=scn.nextLine();
-        System.out.print("parolanızı giriniz");
-        parola=scn.nextLine();
-        if (kişi_adi.equals("Burak") && parola.equals("123")) {
-            System.out.println("girişiniz başarılı");
-        }else if(kişi_adi.equals("hamza") && parola.equals("123")){
-            System.out.println("girişiniz başarılı");
-        }else if(kişi_adi.equals("Meral") && parola.equals("123")) {
-            System.out.println("girişiniz başarılı");
-        }else if(kişi_adi.equals("tuce") && parola.equals("123")) {
-            System.out.println("girişiniz başarılı");
-        }else if (kişi_adi.equals("burak") && parola.equals( "123")) {
-            System.out.println("girişiniz başarılı");
-        }else if(kişi_adi.equals("nevin") && parola.equals("123")) {
-            System.out.println("girişiniz başarılı");
-        }else if(kişi_adi.equals("aslan") && parola.equals("123")) {
-            System.out.println("girişiniz başarılı");
+        String user,pasword;
+        System.out.print("User Name");
+        user=scn.nextLine();
+        System.out.print("pasword");
+        pasword=scn.nextLine();
+        if (kişi_adi.equals("Burak") && pasword.equals("123")) {
+            System.out.println("your login is successful");
+        }else if(user.equals("hamza") && pasword.equals("1234")){
+            System.out.println("your login is successful");
+        }else if(user.equals("Meral") && pasword.equals("12345")) {
+            System.out.println("your login is successful");
+        }else if(user.equals("tuce") && pasword.equals("123456")) {
+            System.out.println("your login is successful");
+        }else if (user.equals("burak") && pasword.equals( "1234567")) {
+            System.out.println("your login is successful");
+        }else if(user.equals("nevin") && pasword.equals("1234567")) {
+            System.out.println("your login is successful");
+        }else if(user.equals("aslan") && paswaord.equals("12346578")) {
+            System.out.println("your login is successful");
+        }else {
+            System.out.prinln("Pls try again");
         }
-
-
-
     }
 }
 
-// System.out.println("Malesef yanlış şifre veya yanlış kullanıcı adı girdiniz");
+
