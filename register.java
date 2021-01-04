@@ -10,7 +10,7 @@ public class register {
         user=scn.nextLine();
         System.out.print("pasword");
         pasword=scn.nextLine();
-        if (kişi_adi.equals("Burak") && pasword.equals("123")) {
+        if (user.equals("Burak") && pasword.equals("123")) {
             System.out.println("your login is successful");
         }else if(user.equals("Manyak") && pasword.equals("228")){
             System.out.println("your login is successful");
